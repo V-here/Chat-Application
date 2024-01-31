@@ -1,0 +1,70 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    background-color: #c3feff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 90px auto;
+    padding: 30px;
+    background-color: #ffffff81;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.541);
+}
+
+#usernameForm{
+    margin-top: 50px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+#messageArea {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+#messageInput {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #cccccc95;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #00ffe164;
+    color: #100000b8;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #026b6992;
+}
+
+/* Styling for messages */
+.message {
+    margin: 10px;
+}
+
+.message .sender {
+    font-weight: bold;
+}
+
+.message .timestamp {
+    font-size: 0.8em;
+    color: #888;
+}
